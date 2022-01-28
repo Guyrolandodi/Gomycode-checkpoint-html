@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>checkpoint html</title>
+        <link rel="stylesheet"href="HTML">
+    </head>
+
+    <body> <!--LES BALISES SEMANTIQUES-->
+        <nav>
+            <!--Liste non ordonnée-->
+            <ul>
+                <li><a href="#">Fondamentaux du web</a></li>
+                <li><a href="#">cours complet HTML</a></li>
+                <LI><a href="#">cours complet CSS</a></LI>
+                <li><a href="#">cours complet java script</a></li>
+                <li>Autres</li>
+
+            </ul>
+            <ol>
+                <!--Liste ordonnée-->
+
+                <li>Fondamentaux du web</li>
+                <li>cours HTML</li>
+                <li>Cours CSS</li>
+                <li>Cours Java script</li>
+            </ol>
+            <dl><dt>HTML</dt>
+                <dd>HTML Hyper Text Marking Language.</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets</dd>
+            </dl>
+        </nav>
+         <!--LIEN VERS MON PROFIL-->
+
+        <p>Ex : lien vers <a href="https://learn.gomycode.co/dashboard">MON PROFIL</a></p>
+    </br>
+
+    <!-- AJOUT DE FICHIER AUDIO MP3-->
+
+    <audio controls>
+        <source src="Restauration.mp3" type="audio/mpeg">
+            lire en audio mp3
+    </audio>
+</br>
+    <!-- ajout de video MP4-->
+    <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4" />
+        Please Check the video extension.
+    </video>
+
+    <!-- LES TABLEAUX LOCAUX-->
+
+    <center>
+        <table border="2">
+            <tr>
+              <td>Nom</td>
+              <td>Prénom</td>
+              <td>Niveau</td>
+              <td>Mail</td>
+            </tr>
+            <tr>
+              <td>ODI</td>
+              <td>Guy Roland</td>
+              <td>intro </td>
+              <td>guyrolandanasse@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Kacou</td>
+              <td>Marc</td>
+              <td>back end</td>
+              <td>kmarc@gmail.com</td>
+            </tr>
+        </table>
+    </br>
+    </center>    
+
+      <!--LE FORMULAIRE DE RENSEIGNEMENT-->
+
+          <form>
+            <label>Nom:</label>
+            <input type="text" name="taper votre Nom" placeholder="taper votre Nom ici" />
+            <br />
+
+            <label>prenom</label>  <input type="text" name="first name" placeholder="taper votre prenom ici" />
+            <br />
+
+            <label>Numero de tel:</label>
+            <input type="number" name="number" value="23123456" />
+            <br />
+      
+            <label>email:</label>
+            <input type="text" name="email" placeholder="taper votre mail ici"  />
+            <br />
+      
+            <label>Password:</label>
+            <input type="password" name="password"placeholder="taper votre code ici" />
+            <br />
+      
+            <input type="submit" value="Submit" />
+          </form>
+      
+    </body>
+</html>
